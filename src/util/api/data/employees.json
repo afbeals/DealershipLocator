@@ -1,0 +1,84 @@
+{
+    "mockEmployees": [
+        {
+            "name": "employee 0",
+            "id": 0
+        },
+        {
+            "name": "employee 1",
+            "id": 1
+        },
+        {
+            "name": "employee 2",
+            "id": 2
+        },
+        {
+            "name": "employee 3",
+            "id": 3
+        },
+        {
+            "name": "employee 4",
+            "id": 4
+        },
+        {
+            "name": "employee 5",
+            "id": 5
+        },
+        {
+            "name": "employee 6",
+            "id": 6
+        },
+        {
+            "name": "employee 7",
+            "id": 7
+        },
+        {
+            "name": "employee 8",
+            "id": 8
+        },
+        {
+            "name": "employee 9",
+            "id": 9
+        },
+        {
+            "name": "employee 10",
+            "id": 10
+        },
+        {
+            "name": "employee 11",
+            "id": 11
+        },
+        {
+            "name": "employee 12",
+            "id": 12
+        },
+        {
+            "name": "employee 13",
+            "id": 13
+        },
+        {
+            "name": "employee 14",
+            "id": 14
+        },
+        {
+            "name": "employee 15",
+            "id": 15
+        },
+        {
+            "name": "employee 16",
+            "id": 16
+        },
+        {
+            "name": "employee 17",
+            "id": 17
+        },
+        {
+            "name": "employee 18",
+            "id": 18
+        },
+        {
+            "name": "employee 19",
+            "id": 19
+        }
+    ]
+}

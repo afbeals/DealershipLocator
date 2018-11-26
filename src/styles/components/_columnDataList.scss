@@ -1,0 +1,96 @@
+.columnDataList{
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: $scrollbar-shadow;
+        box-shadow: $scrollbar-shadow;
+        border-radius: 10px;
+        background-color: $scrollbar-background;
+    }
+    ::-webkit-scrollbar {
+        width: 12px;
+        background-color: $scrollbar-background;
+    }
+    ::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: $scrollbar-shadow;
+        box-shadow: $scrollbar-shadow;
+        background-color: $brand-secondary;
+    }
+    &__header{
+        background: $color-black;
+        padding: .25rem .5rem;
+        color: $font-color-white;
+        border-bottom: 3px solid $brand-secondary;
+        border-radius: 5px 5px 0px 0px;
+        box-shadow: $element-box-shadow;
+        h2{
+            font-size: 2rem;
+        }
+    }
+    &__list{
+        height: 300px;
+        overflow: auto;
+        padding: .25rem;
+        &__wrapper{
+            border-right: $element-standard-border;
+            border-bottom: $element-standard-border;
+            border-left: $element-standard-border;
+            .button__wrapper{
+                border-top: $element-standard-border;
+                padding: .25rem;
+                display: flex;
+                justify-content: flex-end;
+                button{
+                    &:disabled {
+                        border: none;
+                        cursor: auto;
+                        &:hover {
+                        background-color: initial;
+                        color: graytext;
+                        }
+                    }    
+                }
+            }
+        }
+        &__item{
+            padding: .25rem;
+            cursor: pointer;
+            &:nth-child(odd) {
+                background: $color-grey;
+            }
+            &:hover{
+                background: $color-grey-dark;
+            }
+            .content{
+                display: flex;
+                align-items: center;
+                p{
+                    text-transform: capitalize
+                }
+            }
+        }
+        .loading{
+            width: 100%;
+            display:flex;
+            justify-content: center;
+        }
+        .noData{
+            width: 100%;
+            background: $color-grey;
+            text-align: center;
+            p{
+                color:red;
+                padding: .25rem;
+                text-transform: capitalize;
+            }
+        }
+        .waiting{
+            width: 100%;
+            background: $color-grey;
+            text-align: center;
+            p{
+                padding: .25rem;
+                text-transform: capitalize;
+            } 
+        }
+    }
+}

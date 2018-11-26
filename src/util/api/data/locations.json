@@ -1,0 +1,59 @@
+{
+    "mockLocations": [
+      {
+        "name": "location 0",
+        "employees": [1,2],
+        "id":0
+      },
+      {
+        "name": "location 1",
+        "employees": [3,4],
+        "id":1
+      },
+      {
+        "name": "location 2",
+        "employees": [5,6],
+        "id":2
+      },
+      {
+        "name": "location 3",
+        "employees": [7,8],
+        "id":3
+      },
+      {
+        "name": "location 4",
+        "employees": [9,0],
+        "id":4
+      },
+      {
+        "name": "location 5",
+        "employees": [10,11],
+        "id":5
+      },
+      {
+        "name": "location 6",
+        "employees": [12,13],
+        "id":6
+      },
+      {
+        "name": "location 7",
+        "employees": [14,15],
+        "id":7
+      },
+      {
+        "name": "location 8",
+        "employees": [17,18],
+        "id":8
+      },
+      {
+        "name": "location 9",
+        "employees": [16,19],
+        "id":9
+      },
+      {
+        "name": "no employees",
+        "employees": [],
+        "id":10
+      }
+    ]
+  }

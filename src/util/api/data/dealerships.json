@@ -1,0 +1,34 @@
+{
+    "mockDealerShips": [
+      {
+        "name": "dealership 0",
+        "locations": [1,2],
+        "id":0
+      },
+      {
+        "name": "dealership 1",
+        "locations": [3,4],
+        "id":1
+      },
+      {
+        "name": "dealership 2",
+        "locations": [5,6],
+        "id":2
+      },
+      {
+        "name": "dealership 3",
+        "locations": [7,8],
+        "id":3
+      },
+      {
+        "name": "dealership 4",
+        "locations": [9,0,10],
+        "id":4
+      },
+      {
+        "name": "no locations",
+        "locations": [],
+        "id":5
+      }
+    ]
+  }
